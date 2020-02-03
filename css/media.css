@@ -1,0 +1,77 @@
+@media (max-width: 1024.98px){
+    .promo-block {
+        background: url(../img/1920x1080/dsBuffer.jpg) no-repeat bottom right;
+        background-size: cover;
+    }
+
+
+}
+@media (max-width: 991.98px) {
+    .line:before{
+        display: none;
+    }
+    .gorizont{
+         margin-left: 0;
+     }
+}
+@media (max-width: 767.98px) {
+    .promo-block{
+        background-attachment: fixed;
+    }
+    .promo-block .promo-block-title {
+        text-align: right;
+    }
+    .promo-block .promo-block-text {
+        font-size: 19px;
+        color: #fff;
+        text-align: right;
+    }
+
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    @media (orientation: landscape) {
+
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .promo-block {
+        padding: 110px 0;
+    }
+    .promo-block .promo-block-text {
+        font-size: 19px;
+        color: #fff;
+        text-align: right;
+        margin-bottom: 50%;
+    }
+    @media (orientation: landscape){
+
+    }
+
+}
+
+
+@media (max-width: 321px){
+    .promo-block {
+        padding: 110px 0 130px;
+    }
+
+    .promo-block .promo-block-title {
+        text-align: left;
+        font-size: 28px;
+    }
+    .promo-block .promo-block-text {
+        font-size: 20px;
+        color: #fff;
+        text-align: right;
+        margin-bottom: 35%;
+        margin-top: -5%;
+    }
+}

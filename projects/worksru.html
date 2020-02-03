@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Работы</title>
+    <meta name="description" content="Card Expansion Effect with SVG clipPath" />
+    <meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+    <meta name="author" content="Claudio Calautti for Codrops" />
+    <link rel="shortcut icon" href="../img/Vector.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/card.css" />
+    <link rel="stylesheet" type="text/css" href="css/pattern.css" />
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        };
+    </script>
+</head>
+
+<body class="demo-2">
+
+<div class="container">
+    <header class="codrops-header">
+
+        <h1>Проекты сделанные с душой </h1>
+
+    </header>
+    <div class="content">
+        <!-- trianglify pattern container -->
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <img src="./img/spirit.svg" class="card__image" alt="">
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">SPIRIT8</h2>
+                            <p class="card__subtitle">Одностраничниый сайт</p>
+                        </div>
+                        <div class="card__copy">
+                            <p>Мы - цифровое агентство с многолетним опытом и неординарными людьми.</p>
+                            <p>Этот сайт принадлежит компании, которая занимается маркетингом, веб-дизайном и разработкой мобильных приложений.</p>
+                            <p class="text">Этот сайт был разработан мной во время обучения на курсе, где нас просили сделать домашнее задание.</p>
+                            <a href="https://bekoou.github.io/sitedemospirit8" >Нажми, чтобы увидеть сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <img src="./img/lopper.svg" class="card__image">
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">Lopper</h2>
+                            <p class="card__subtitle">Одностраничниый сайт</p>
+                        </div>
+                        <div class="card__copy">
+                            <p>Этот сайт предназначен для компании Lopper, которая занимается различными разработками в сфере IT.</p>
+                            <p>Этот сайт был моим проектом для презентации. Здесь реализовано много функций, таких как слайдеры, форма обратной связи, анимация.</p>
+                            <p class="text">Сайт полностью реагирует на разные размеры окон.</p>
+                            <a href="https://bekoou.github.io/lopper/" >Нажми, чтобы увидеть сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <img src="./img/bek_.svg" class="card__image" alt="">
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">IT студия</h2>
+                            <p class="card__subtitle">Одностраничниый сайт</p>
+                        </div>
+                        <div class="card__copy">
+                            <p>Сайт был разработан для этой студии.</p>
+                            <p class="text">Выполнено множество функций, в список которых входит fancybox. Сайт полностью адаптивный.</p>
+                            <a href="https://bekoou.github.io/bek-and-co/" >Нажми, чтобы увидеть сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <img src="./img/waxos.svg" class="card__image" alt="">
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">Компания занимающийся дизайном</h2>
+                            <p class="card__subtitle">Одностраничный сайт</p>
+                        </div>
+                        <div class="card__copy">
+                            <p>Сайт был разработан для компании ,занимающийся разработкой дизайнов и сайтов.</p>
+                            <p class="text">Выполнено множество функций, в список которых входит fancybox, слайды, табы и многое другое. Сайт полностью адаптивный.</p>
+                            <a href="https://bekoou.github.io/waxom/" >Нажми, чтобы увидеть сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /cards -->
+    </div>
+</div>
+
+
+<!-- /container -->
+<!-- JS -->
+<script src="js/vendors/trianglify.min.js"></script>
+<script src="js/vendors/TweenMax.min.js"></script>
+<script src="js/vendors/ScrollToPlugin.min.js"></script>
+<script src="js/vendors/cash.min.js"></script>
+<script src="js/Card-polygon.js"></script>
+<script src="js/demo-2.js"></script>
+</body>
+
+</html>
