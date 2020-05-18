@@ -395,7 +395,6 @@ fieldset[disabled] .btn-theme {
     background: #17bed2;
     color: #fff;
     border-radius: 10px;
-    margin: 0 8%;
     transition: .4s;
 }
 #work .button:hover{
